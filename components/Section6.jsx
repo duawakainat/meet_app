@@ -81,10 +81,14 @@ const ProjectGallery = () => {
 
   return (
     <>
-      <div className={style.container}>
-        <div className='sectionF' style={{ marginBottom: '50px' }}>
-          <ul className='tabs nav nav-pills d-flex justify-content-center align-items-center mx-auto'>
-            {['all', 'animals', 'nature', 'VECTOR', 'RASTER', 'PRINTING', 'UI/UX'].map((filter, index) => (
+      <div className='P_120 '>
+        <div className='sectionF ' style={{ marginBottom: '50px' }}>
+        <div class={style.main_title + " text-center"}>
+                <h2 class={style.font_36}>OUR LATEST FEATURED PROJECTS</h2>
+                <p class={style.Para_16 + " p-0 m-0"}>Who are in extremely love with eco friendly system.</p>
+            </div>
+          <ul className='tabs nav nav-pills flex justify-center items-center mx-auto'>
+            {['all', 'VECTOR', 'RASTER', 'PRINTING', 'UI/UX'].map((filter, index) => (
               <li key={index} onClick={() => handleFilterClick(filter)} className={`${activeFilter === filter ? style.active : '  filter_btan'}`}>
                 {filter}
               </li>
@@ -92,13 +96,14 @@ const ProjectGallery = () => {
           </ul>
         </div>
         <div className='sectionF'>
-          <div className={`${style.row}  grid lg:grid-cols-3 md:grid-cols-3 items-center relative section_F mx-auto`}>
+        
+          <div className={`${style.row}  grid md:grid-cols-3 sm:grid-cols-1 items-center relative section_F mx-auto`}>
             {projects.map((project, index) => (
               filterItems(project.categories) && (
                 <div key={index} className={`item ${style.popupTrigger}`} data-category={project.categories.join(' ')}>
-                  <div className={`flex justify-around mx-auto ${style.border0} ${style.p0}`}>
+                  <div className={`flex justify-around popup-trigger mx-auto ${style.border0} ${style.p0}`}>
                     <div className={style.border0}>
-                      <div className='popup-trigger p-4 ' >
+                      <div className='popup-trigger md:p-4 lg:p-4 sm:p-0' >
                         <div onClick={() => handleImageClick(index)} className={style.popupTrigger}>
                           <img src={`/project-${index + 1}.jpg.webp`} className={`card-img-top ${style.image} w-100`} alt={`Image ${index + 1}`} />
                           <div className='hover-element'>
@@ -117,6 +122,8 @@ const ProjectGallery = () => {
             ))
             }
           </div>
+            <div class="text-right grid grid-cols-1 justify-items-stretch"><button type="button"
+                            class="btn Contact_btn_2 justify-self-center">Send Message</button></div>
         </div>
       </div>
       {popupVisible == true &&

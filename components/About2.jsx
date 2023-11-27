@@ -8,9 +8,9 @@ const Section1 = () => {
     return (
         <div className=' bg-transparent'>
             <div className={style.sectionF}>
-                <div className={style.marG_T + ' card container section_F marG_T position-relative z-3'}>
+                <div className={style.marG_T + ' card container section_F border-transparent marG_T position-relative z-3'}>
                     <div
-                        className={style.Display_col + ' flex lg:flex-row md:flex-col sm:flex-col justify-center flex-xl-row flex-lg-column flex-md-column flex-sm-column flex-xs-column Display_col bottom_marP'} style={{padding: '100px 0'}}>
+                        className={style.Display_col + ' flex border-transparent lg:flex-row md:flex-col sm:flex-col justify-center flex-xl-row flex-lg-column flex-md-column flex-sm-column flex-xs-column Display_col bottom_marP'} style={{padding: '100px 0'}}>
                         <div
                             className={style.padd_S + ' d-flex justify-content-lg-center justify-content-md-center justify-content-sm-center justify-content-xs-center'}>
                             <img src="/personal-2.jpg.webp" className={style.img_size} fluid alt="..." />

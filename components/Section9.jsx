@@ -12,7 +12,7 @@ const Section9=()=>{
     return(
         <div class="container-fluid bg-black">
         <div class="sectionF P_120 mx-auto">
-            <div class="row lg:grid-cols-4 align-items-center">
+            <div class="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-2 items-center">
                 <div class="col-lg-5 col-span-2 col-sm-6" style={{padding: '0 15px'}}>
                     <h3 class="Font_18">About Me</h3>
                     <p class="font_14" style={{color: '#777',marginBottom: '30px'}}>Do you want to be even more successful?
@@ -21,7 +21,7 @@ const Section9=()=>{
                         is made with <BsHeart/>Colorlib
                     </p>
                 </div>
-                <div class="col-lg-5 col-sm-6 align-self-start self-start " style={{padding: '0 15px'}}>
+                <div class="col-lg-5 col-span-2 col-sm-6 align-self-start self-start " style={{padding: '0 15px'}}>
                     <h3 class="Font_18 mt-0 pt-0">Newsletter</h3>
                     <p class="font_14" style={{color: '#777',marginBottom: '15px'}}>Stay updated with our latest trends</p>
                     <div class="input-container items-start">

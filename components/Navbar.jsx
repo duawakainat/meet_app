@@ -9,17 +9,24 @@ import { NavbarCollapse } from 'react-bootstrap';
 const page = (props) => {
     return (
         <div className={style.bgcol + ''}>
-            <div className={style.sectionF}>
-        
-                <Navbar fluid className='bg-transparent navbar !mt-0 !mb-0 !p-0'>
-                    <Navbar.Brand as={Link} href="">
-                        <img src="/logo.png.webp" className="mr-3" style={{width:'96px', height: '18px'}} alt="Flowbite React Logo" />
-                    </Navbar.Brand>
-                    <Navbar.Toggle />
-                    <Navbar.Collapse className='!p-0 !mt-0 !mb-0 !m-0s space:!md-x-0 !mb-0'>
-                    <Link href='home' className='nav-link'>Home</Link>
+                <nav class="lg:bg-transparent md:bg-transparent sm:bg-black border-gray-200 dark:bg-gray-900">
+                <div className={style.sectionF}>
+  
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
+    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="/logo.png.webp" class="" alt="Flowbite Logo" />
+    </a>
+    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center sm:mt-7 sm:mb-6 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class="font-medium flex flex-col md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0">
+      <Link href='home' className='nav-link'>Home</Link>
                     <Link href='about' className='nav-link !mt-0 !mr-11'>About</Link>
-                    <Link href='#' className='nav-link !mr-11'>Services</Link>    
+                    <Link href='services' className='nav-link !mr-11'>Services</Link>    
                     <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-white !ml-0 !mr-11 bg-transparent  inline-flex items-center" type="button">Page 
 
 </button>
@@ -27,10 +34,10 @@ const page = (props) => {
 <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
     <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
       <li>
-        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Poitfulio</a>
+        <a href="portfulio" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600">Poitfulio</a>
       </li>
       <li>
-        <a href="Element" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Element</a>
+        <a href="Element" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600">Element</a>
       </li>
     </ul>
 </div>
@@ -41,19 +48,21 @@ const page = (props) => {
 <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
     <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
       <li>
-        <a href="blog" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Blog</a>
+        <a href="blog" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600">Blog</a>
       </li>
       <li>
-        <a href="blog__h" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Blog Detail</a>
+        <a href="blog__h" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600">Blog Detail</a>
       </li>
     </ul>
 </div>
 
                         <Link href='contact' className='nav-link'>Contact</Link>
-                    </Navbar.Collapse>
-                </Navbar>
-
+      </ul>
+    </div>
+  </div>
             </div >
+</nav>
+
 
         </div >
     )
