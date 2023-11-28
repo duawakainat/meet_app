@@ -103,11 +103,11 @@ const ProjectGallery = () => {
                 <div key={index} className={`item ${style.popupTrigger}`} data-category={project.categories.join(' ')}>
                   <div className={`flex justify-around popup-trigger mx-auto ${style.border0} ${style.p0}`}>
                     <div className={style.border0}>
-                      <div className='popup-trigger md:p-4 lg:p-4 sm:p-0' >
+                      <div className='popup-trigger  md:p-4 lg:p-4 sm:p-0' >
                         <div onClick={() => handleImageClick(index)} className={style.popupTrigger}>
                           <img src={`/project-${index + 1}.jpg.webp`} className={`card-img-top ${style.image} w-100`} alt={`Image ${index + 1}`} />
-                          <div className='hover-element'>
-                            <i className={`fas fa-binoculars ${style.icon}`}></i>
+                          <div className={style.hoverElement}>
+                            <i className={`fas fa-binoculars icon ${style.icon}`}></i>
                           </div>
                         </div>
                       </div>

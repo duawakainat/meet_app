@@ -13,7 +13,7 @@ const Section9=()=>{
         <div class="container-fluid bg-black">
         <div class="sectionF P_120 mx-auto">
             <div class="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-2 items-center">
-                <div class="col-lg-5 col-span-2 col-sm-6" style={{padding: '0 15px'}}>
+                <div class="col-span-2" style={{padding: '0 15px'}}>
                     <h3 class="Font_18">About Me</h3>
                     <p class="font_14" style={{color: '#777',marginBottom: '30px'}}>Do you want to be even more successful?
                         Learn to love learning and growth. The more effort you put into improving your skills,</p>
@@ -21,7 +21,7 @@ const Section9=()=>{
                         is made with <BsHeart/>Colorlib
                     </p>
                 </div>
-                <div class="col-lg-5 col-span-2 col-sm-6 align-self-start self-start " style={{padding: '0 15px'}}>
+                <div class="col-span-2 align-self-start self-start " style={{padding: '0 15px'}}>
                     <h3 class="Font_18 mt-0 pt-0">Newsletter</h3>
                     <p class="font_14" style={{color: '#777',marginBottom: '15px'}}>Stay updated with our latest trends</p>
                     <div class="input-container items-start">
@@ -33,7 +33,7 @@ const Section9=()=>{
                             </button>
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-6 align-self-start">
+                <div class="self-start">
                     <h3 class="Font_18 mt-0 pt-0">Follow Me</h3>
                     <p class="font_14" style={{color: '#777',marginBottom: '15px'}}>Let us be social</p>
                     <div className='flex'>

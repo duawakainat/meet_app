@@ -27,11 +27,11 @@ const page = (props) => {
       <Link href='home' className='nav-link'>Home</Link>
                     <Link href='about' className='nav-link !mt-0 !mr-11'>About</Link>
                     <Link href='services' className='nav-link !mr-11'>Services</Link>    
-                    <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-white !ml-0 !mr-11 bg-transparent  inline-flex items-center" type="button">Page 
+                    <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown1" class="text-white !ml-0 !mr-11 bg-transparent  inline-flex items-center" type="button">Page 
 
 </button>
 
-<div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+<div id="dropdown1" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
     <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
       <li>
         <a href="portfulio" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600">Poitfulio</a>
