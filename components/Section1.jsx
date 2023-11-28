@@ -29,14 +29,14 @@ const Section1 = () => {
                                 </a>
                                 </li>
                                 <li className={style.Icon_Wi}>
-                                    <a href="" className="">
+                                    <a>
                                         <span className='flex justify-start'> <p className={style.img_CO}><BsPhoneFill className='m-0' /></p> 44 (012) 6954
                                             783</span></a>
                                 </li>
-                                <li className={style.Icon_Wi}><a href="" className="">         <span className='flex justify-start'> <p className={style.img_CO}><BsEnvelope className='m-0' />
+                                <li className={style.Icon_Wi}><a>         <span className='flex justify-start'> <p className={style.img_CO}><BsEnvelope className='m-0' />
                                 </p>                                        businessplan@donald</span></a>
                                 </li>
-                                <li className={style.Icon_Wi}><a href="">
+                                <li className={style.Icon_Wi}><a>
                                     {/* <i className="fa-solid fa-house m-0" className="img_CO"
                                 style="size: 20px;  padding-right: 40px; color: #766dff;"></i>*/}
                                     <span className='flex justify-start'> <p className={style.img_CO}><BsHouse className='m-0' /></p>Santa monica
