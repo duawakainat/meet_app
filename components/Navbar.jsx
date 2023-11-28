@@ -17,7 +17,7 @@ const Page = () => {
         <div>
     {arr.includes(PathName)? 
     <div>
-    <nav class="lg:bg-transparent md:bg-transparent sm:bg-black border-gray-200 dark:bg-gray-900">
+    <nav class="lg:bg-transparent md:bg-transparent sm:bg-black  border-gray-200 dark:bg-gray-900">
     <div className={style.sectionF}>
 
 <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
@@ -74,8 +74,8 @@ const Page = () => {
 
 </div >
 :
-        <div className={style.bgcol + ''}>
-                <nav class="lg:bg-transparent md:bg-transparent sm:bg-black border-gray-200 dark:bg-gray-900">
+        <div className={style.bgcol + ' '}>
+                <nav class="lg:bg-transparent md:bg-transparent sm:bg-black border-gray-200 dark:bg-gray-900 navbar">
                 <div className={style.sectionF}>
   
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">

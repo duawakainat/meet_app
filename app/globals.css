@@ -1027,6 +1027,12 @@ margin-left: 0px !important;
     width: 360px;
     height: 220px;
 }
+.navbar {
+    @media only screen and (min-width: 300px)and (max-width: 630spx) {
+        background-color: #000 !important;
+        color: #fff;
+    }
+}
 .logoImag{
     width: 96px;
     height: 18px;

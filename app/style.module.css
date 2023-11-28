@@ -13,6 +13,10 @@
     background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
     /* top: 40px; */
     z-index: 99;
+    @media only screen and (min-width: 300px)and (max-width: 630px) {
+        background-color: #000 !important;
+        color: #fff !important;
+    }
 }
 
 .link {
@@ -222,7 +226,7 @@
     background-color: transparent;
 
     @media only screen and (min-width: 300px)and (max-width: 992px) {
-        background-color: #000;
+        background-color: #000 !important;
         color: #fff;
     }
 }
@@ -499,7 +503,8 @@ align-self: center;
 .icon_61::before {
     /* content: ; */
     /* content: "\e801"; */
-    width: 61px;
+    width: 64px;
+    height: 64px;
     margin-bottom: 35px;
     color: #e1e1e1;
 }
