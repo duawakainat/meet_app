@@ -18,7 +18,7 @@ Navbar ul li{
     -ms-text-kashida-space: 0%;
 } 
 .nav-link {
-    font: 500 12px/120px "Roboto", sans-serif;
+    font: 500 12px/120px "Roboto", sans-serif !important;
     text-transform: uppercase;
     color: #fff !important;
     display: inline-block;
@@ -1032,6 +1032,22 @@ margin-left: 0px !important;
         background-color: #000 !important;
         color: #fff;
     }
+}
+.icon_61::before {
+    /* content: ; */
+    /* content: "\e801"; */
+    width: 64px;
+    height: 64px;
+    margin-bottom: 35px;
+    color: #e1e1e1;
+}
+
+.icon_61:hover::before {
+    background-image: linear-gradient(to right, #766dff 0%, #88f3ff 100%);
+    /* Initial gradient */
+    color: transparent;
+    -webkit-background-clip: text;
+    transition: background-image 0.3s ease;
 }
 .logoImag{
     width: 96px;
