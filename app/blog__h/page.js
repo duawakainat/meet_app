@@ -4,14 +4,14 @@ import Blog1 from '../../components/BlogSH1'
 import Blog2 from '../../components/BlogSH2'
 import Blog3 from '../../components/BlogSH3'
 import Blog4 from '../../components/BlogD2'
-import Navbar from '../../components/Navbar'
 import Section9 from '../../components/Section9'
 const page = () => {
     return (
         <div>
-            <Navbar/>
+
+
 <Blog1/>
-        <div className='mx-auto sectionF P_120'>
+        <div className='mx-auto sectionF'>
 <Blog2/>
 
 
@@ -25,7 +25,9 @@ const page = () => {
 
        </div>
        </div></div>
+       </div>
        <Section9/>
-       </div></div>
+       
+       </div>
     )}
     export default page

@@ -3,7 +3,7 @@ import style from '../app/style.module.css'
 import { Poppins } from 'next/font/google'
 import { BsFacebook } from 'react-icons/bs';
 import { BsHouse, BsEnvelope, BsCalendar, BsPhoneFill } from 'react-icons/bs';
-
+import Image from 'next/image';
 const Section1 = () => {
     return (
         <div className=' bg-transparent'>
@@ -13,7 +13,7 @@ const Section1 = () => {
                         className={style.Display_col + ' flex border-transparent lg:flex-row md:flex-col sm:flex-col justify-center flex-xl-row flex-lg-column flex-md-column flex-sm-column flex-xs-column Display_col bottom_marP'} style={{padding: '100px 0'}}>
                         <div
                             className={style.padd_S + ' d-flex justify-content-lg-center justify-content-md-center justify-content-sm-center justify-content-xs-center'}>
-                            <img src="/personal-2.jpg.webp" className={style.img_size} fluid alt="..." />
+                            <Image src="/personal-2.jpg.webp" width={100} height={130} className={style.Image_size} fluid alt="..." />
                         </div>
                         <div className={style.Div_font +' text-start'}>
                             <h6 className={style.font_Small}>HELLO EVERYBODY, I AM</h6>
@@ -23,23 +23,23 @@ const Section1 = () => {
                                 (with reference to the ghost showing Scrooge some different futures)</p>
                             <ul className="link_S m-0 p-0">
                                 <li className={style.Icon_Wi}><a>
-                                    <span className='flex justify-start'> <p className={style.img_CO}><BsCalendar className='m-0' /></p>
+                                    <span className='flex justify-start'> <p className={style.Image_CO}><BsCalendar className='m-0' /></p>
                                         31st December,
                                         1992</span>
                                 </a>
                                 </li>
                                 <li className={style.Icon_Wi}>
                                     <a href="" className="">
-                                        <span className='flex justify-start'> <p className={style.img_CO}><BsPhoneFill className='m-0' /></p> 44 (012) 6954
+                                        <span className='flex justify-start'> <p className={style.Image_CO}><BsPhoneFill className='m-0' /></p> 44 (012) 6954
                                             783</span></a>
                                 </li>
-                                <li className={style.Icon_Wi}><a href="" className="">         <span className='flex justify-start'> <p className={style.img_CO}><BsEnvelope className='m-0' />
+                                <li className={style.Icon_Wi}><a href="" className="">         <span className='flex justify-start'> <p className={style.Image_CO}><BsEnvelope className='m-0' />
                                 </p>                                        businessplan@donald</span></a>
                                 </li>
                                 <li className={style.Icon_Wi}><a href="">
-                                    {/* <i className="fa-solid fa-house m-0" className="img_CO"
+                                    {/* <i className="fa-solid fa-house m-0" className="Image_CO"
                                 style="size: 20px;  padding-right: 40px; color: #766dff;"></i>*/}
-                                    <span className='flex justify-start'> <p className={style.img_CO}><BsHouse className='m-0' /></p>Santa monica
+                                    <span className='flex justify-start'> <p className={style.Image_CO}><BsHouse className='m-0' /></p>Santa monica
                                         bullevard</span> </a>
                                 </li>
                             </ul>

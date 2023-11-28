@@ -37,8 +37,8 @@ Block Quotes
                 <div class="Font_16_S">#</div>
                 </th>
                 <th scope="col" class="" style={{width: '28.07%' ,padding: '0'}}>
-                <div class="padd_F pe-0 inline-flex items-center" > <img src="/f1.jpg.webp"
-                                alt="" style={{marginRight: '15px'}}/>  Navigate
+                <div class="padd_F pe-0 inline-flex items-center" > <Image src="/f1.jpg.webp"
+                            width={100} height={130}    alt="" style={{marginRight: '15px'}}/>  Navigate
                         </div>
                 </th>
                 <th scope="col" class="" style={{width: '19.74%',padding: '0'}}>
@@ -80,8 +80,8 @@ VISITS
                     </div>
                     <div class="flex border-bottom border-b border-zinc-200 border-bottom p-0" style={{paddingTop: '15px',paddingBottom: '15px'}}>
                         <div class="padd_F" style={{width: '11.83%',paddingLeft: '30px',color: '#777'}}>1</div>
-                        <div class="padd_F pe-0 inline-flex items-center" style={{width: '28.07%' ,padding: '0',color: '#777'}}> <img src="/f1.jpg.webp"
-                                alt="" style={{marginRight: '15px'}}/>  Navigate
+                        <div class="padd_F pe-0 inline-flex items-center" style={{width: '28.07%' ,padding: '0',color: '#777'}}> <Image src="/f1.jpg.webp"
+                             width={100} height={130}   alt="" style={{marginRight: '15px'}}/>  Navigate
                         </div>
                         <div class="padd_F p-0" style={{width: '19.74%',padding: '0',color: '#777'}}> 123456
                         </div>
@@ -95,8 +95,8 @@ VISITS
                             </div>
                             <div class="flex border-bottom border-b border-zinc-200 border-bottom p-0" style={{paddingTop: '15px',paddingBottom: '15px'}}>
                         <div class="padd_F" style={{width: '11.83%',paddingLeft: '30px',color: '#777'}}>2</div>
-                        <div class="padd_F pe-0 inline-flex items-center" style={{width: '28.07%' ,padding: '0',color: '#777'}}> <img src="/f2.jpg.webp"
-                                alt="" style={{marginRight: '15px'}}/>  Navigate
+                        <div class="padd_F pe-0 inline-flex items-center" style={{width: '28.07%' ,padding: '0',color: '#777'}}> <Image src="/f2.jpg.webp"
+                             width={100} height={130}   alt="" style={{marginRight: '15px'}}/>  Navigate
                         </div>
                         <div class="padd_F p-0" style={{width: '19.74%',padding: '0',color: '#777'}}> 123456
                         </div>
@@ -110,8 +110,8 @@ VISITS
                             </div>
                             <div class="flex border-bottom border-b border-zinc-200 border-bottom p-0" style={{paddingTop: '15px',paddingBottom: '15px'}}>
                         <div class="padd_F" style={{width: '11.83%',paddingLeft: '30px',color: '#777'}}>3</div>
-                        <div class="padd_F pe-0 inline-flex items-center" style={{width: '28.07%' ,padding: '0',color: '#777'}}> <img src="/f3.jpg.webp"
-                                alt="" style={{marginRight: '15px'}}/>  Navigate
+                        <div class="padd_F pe-0 inline-flex items-center" style={{width: '28.07%' ,padding: '0',color: '#777'}}> <Image src="/f3.jpg.webp"
+                             width={100} height={130}   alt="" style={{marginRight: '15px'}}/>  Navigate
                         </div>
                         <div class="padd_F p-0" style={{width: '19.74%',padding: '0',color: '#777'}}> 123456
                         </div>
@@ -125,8 +125,8 @@ VISITS
                             </div>
                             <div class="flex border-bottom border-b border-zinc-200 border-bottom p-0" style={{paddingTop: '15px',paddingBottom: '15px'}}>
                         <div class="padd_F" style={{width: '11.83%',paddingLeft: '30px',color: '#777'}}>4</div>
-                        <div class="padd_F pe-0 inline-flex items-center" style={{width: '28.07%' ,padding: '0',color: '#777'}}> <img src="/f4.jpg.webp"
-                                alt="" style={{marginRight: '15px'}}/>  Navigate
+                        <div class="padd_F pe-0 inline-flex items-center" style={{width: '28.07%' ,padding: '0',color: '#777'}}> <Image src="/f4.jpg.webp"
+                              width={100} height={130}  alt="" style={{marginRight: '15px'}}/>  Navigate
                         </div>
                         <div class="padd_F p-0" style={{width: '19.74%',padding: '0',color: '#777'}}> 123456
                         </div>
@@ -140,8 +140,8 @@ VISITS
                             </div>
                             <div class="flex border-bottom border-b border-zinc-200 border-bottom p-0" style={{paddingTop: '15px',paddingBottom: '15px'}}>
                         <div class="padd_F" style={{width: '11.83%',paddingLeft: '30px',color: '#777'}}>5</div>
-                        <div class="padd_F pe-0 inline-flex items-center" style={{width: '28.07%' ,padding: '0',color: '#777'}}> <img src="/f1.jpg.webp"
-                                alt="" style={{marginRight: '15px'}}/>  Navigate
+                        <div class="padd_F pe-0 inline-flex items-center" style={{width: '28.07%' ,padding: '0',color: '#777'}}> <Image src="/f1.jpg.webp"
+                            width={100} height={130}    alt="" style={{marginRight: '15px'}}/>  Navigate
                         </div>
                         <div class="padd_F p-0" style={{width: '19.74%',padding: '0',color: '#777'}}> 123456
                         </div>
@@ -155,8 +155,8 @@ VISITS
                             </div>
                             <div class="flex border-bottom border-b border-zinc-200 border-bottom p-0" style={{paddingTop: '15px',paddingBottom: '15px'}}>
                         <div class="padd_F" style={{width: '11.83%',paddingLeft: '30px',color: '#777'}}>6</div>
-                        <div class="padd_F pe-0 inline-flex items-center" style={{width: '28.07%' ,padding: '0',color: '#777'}}> <img src="/f2.jpg.webp"
-                                alt="" style={{marginRight: '15px'}}/>  Navigate
+                        <div class="padd_F pe-0 inline-flex items-center" style={{width: '28.07%' ,padding: '0',color: '#777'}}> <Image src="/f2.jpg.webp"
+                             width={100} height={130}   alt="" style={{marginRight: '15px'}}/>  Navigate
                         </div>
                         <div class="padd_F p-0" style={{width: '19.74%',padding: '0',color: '#777'}}> 123456
                         </div>
@@ -170,8 +170,8 @@ VISITS
                             </div>
                             <div class="flex border-bottom border-b border-zinc-200 border-bottom p-0" style={{paddingTop: '15px',paddingBottom: '15px'}}>
                         <div class="padd_F" style={{width: '11.83%',paddingLeft: '30px',color: '#777'}}>7</div>
-                        <div class="padd_F pe-0 inline-flex items-center" style={{width: '28.07%' ,padding: '0',color: '#777'}}> <img src="/f3.jpg.webp"
-                                alt="" style={{marginRight: '15px'}}/>  Navigate
+                        <div class="padd_F pe-0 inline-flex items-center" style={{width: '28.07%' ,padding: '0',color: '#777'}}> <Image src="/f3.jpg.webp"
+                             width={100} height={130}   alt="" style={{marginRight: '15px'}}/>  Navigate
                         </div>
                         <div class="padd_F p-0" style={{width: '19.74%',padding: '0',color: '#777'}}> 123456
                         </div>
@@ -185,8 +185,8 @@ VISITS
                             </div>
                             <div class="flex border-bottom border-b border-zinc-200 border-bottom p-0" style={{paddingTop: '15px',paddingBottom: '15px'}}>
                         <div class="padd_F" style={{width: '11.83%',paddingLeft: '30px',color: '#777'}}>8</div>
-                        <div class="padd_F pe-0 inline-flex items-center" style={{width: '28.07%' ,padding: '0',color: '#777'}}> <img src="/f4.jpg.webp"
-                                alt="" style={{marginRight: '15px'}}/>  Navigate
+                        <div class="padd_F pe-0 inline-flex items-center" style={{width: '28.07%' ,padding: '0',color: '#777'}}> <Image src="/f4.jpg.webp"
+                              width={100} height={130}  alt="" style={{marginRight: '15px'}}/>  Navigate
                         </div>
                         <div class="padd_F p-0" style={{width: '19.74%',padding: '0',color: '#777'}}> 123456
                         </div>

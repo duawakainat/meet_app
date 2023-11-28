@@ -3,7 +3,7 @@ import style from '../app/style.module.css'
 import { Poppins } from 'next/font/google'
 import { BsFacebook } from 'react-icons/bs';
 import { BsHouse, BsEnvelope, BsCalendar, BsPhoneFill } from 'react-icons/bs';
-
+import Image from 'next/image';
 const Section1 = () => {
     return (
         <div className={style.marg_B}>
@@ -13,7 +13,7 @@ const Section1 = () => {
                         className={style.Display_col + ' flex lg:flex-row md:flex-col sm:flex-col justify-center flex-xl-row flex-lg-column flex-md-column flex-sm-column flex-xs-column Display_col bottom_marP'}>
                         <div
                             className={style.padd_S + ' d-flex justify-content-lg-center justify-content-md-center justify-content-sm-center justify-content-xs-center'}>
-                            <img src="/personal.jpg.webp" className={style.img_size} fluid alt="..." />
+                            <Image src="/personal.jpg.webp" width={100} height={130} className={style.img_size} fluid alt="..." />
                         </div>
                         <div className={style.Div_font + ' text-start'}>
                             <h6 className={style.font_Small}>HELLO EVERYBODY, I AM</h6>

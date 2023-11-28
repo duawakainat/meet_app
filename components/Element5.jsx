@@ -9,13 +9,13 @@ function page() {
 
 <div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1">
     <div>
-        <img class="max-w-full sm:w-full xs:w-full rounded-lg gallery_img" src="/image/g1.jpg.webp" alt=""/>
+        <Image class="max-w-full sm:w-full xs:w-full rounded-lg gallery_img" src="/image/g1.jpg.webp" width={100} height={130} alt=""/>
     </div>
     <div>
-        <img class="max-w-full sm:w-full rounded-lg gallery_img" src="/image/g2.jpg.webp" alt=""/>
+        <Image class="max-w-full sm:w-full rounded-lg gallery_img" src="/image/g2.jpg.webp" width={100} height={130} alt=""/>
     </div>
     <div>
-        <img class="max-w-full sm:w-full rounded-lg gallery_img" src="/image/g3.jpg.webp" alt=""/>
+        <Image class="max-w-full sm:w-full rounded-lg gallery_img" src="/image/g3.jpg.webp" width={100} height={130} alt=""/>
     </div>
     </div>
 
@@ -23,22 +23,22 @@ function page() {
 
 <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
         <div>
-            <img class="max-w-full sm:w-full rounded-lg gallery_img" src="/g4.jpg.webp" alt="" />
+            <Image class="max-w-full sm:w-full rounded-lg gallery_img" src="/g4.jpg.webp" width={100} height={130} alt="" />
         </div>
         <div>
-            <img class="max-w-full sm:w-full rounded-lg gallery_img" src="/g5.jpg.webp" alt="" />
+            <Image class="max-w-full sm:w-full rounded-lg gallery_img" src="/g5.jpg.webp" width={100} height={130} alt="" />
         </div>       
     </div>
 
     <div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 xs:grid-cols-1">
     <div>
-        <img class="max-w-full sm:w-full xs:w-full rounded-lg gallery_img" src="/image/g6.jpg.webp" alt=""/>
+        <Image class="max-w-full sm:w-full xs:w-full rounded-lg gallery_img" src="/image/g6.jpg.webp" width={100} height={130} alt=""/>
     </div>
     <div>
-        <img class="max-w-full sm:w-full rounded-lg gallery_img" src="/image/g7.jpg.webp" alt=""/>
+        <Image class="max-w-full sm:w-full rounded-lg gallery_img" src="/image/g7.jpg.webp" width={100} height={130} alt=""/>
     </div>
     <div>
-        <img class="max-w-full sm:w-full rounded-lg gallery_img" src="/image/g8.jpg.webp" alt=""/>
+        <Image class="max-w-full sm:w-full rounded-lg gallery_img" src="/image/g8.jpg.webp" width={100} height={130} alt=""/>
     </div>
     </div>
 

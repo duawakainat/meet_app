@@ -16,7 +16,7 @@ const page=()=>{
             </div>
             <div class="text-center">
                 <div className='flex items-center justify-center'>
-                <img src="/author.png.webp" class="img-fluid roundecircle" alt=""/></div>
+                <Image src="/author.png.webp" width={100} height={130} class="img-fluid roundecircle" alt=""/></div>
                 <h4 class="s_18 mt-8 mb-1">Charlie Barber</h4>
                 <p class="para_SF" style={{color: '#777'}}>Senior blog writer</p>
                 <div class="py-8 px-4 flex items-center justify-center">
@@ -41,7 +41,7 @@ const page=()=>{
                    
                     <div class="flex justify-start text-start">
                         <div class="">
-                            <img src="/post1.jpg.webp" alt=""/>
+                            <Image width={100} height={130} src="/post1.jpg.webp" alt=""/>
                         </div>
                         <div class="pl-5">
                             <h3 class="Blog_P hober mb-1 leading-5 font-bold"
@@ -53,7 +53,7 @@ const page=()=>{
                    
                     <div class="flex text-start mt-5">
                         <div class="">
-                            <img src="/post2.jpg.webp" alt=""/>
+                            <Image width={100} height={130} src="/post2.jpg.webp" alt=""/>
                         </div>
                         <div class="ml-5">
                             <h3 class="Blog_P hober mb-1 leading-5"
@@ -64,7 +64,7 @@ const page=()=>{
                     </div>
                     <div class="flex text-start mt-5">
                         <div class="">
-                            <img src="/post3.jpg.webp" alt=""/>
+                            <Image width={100} height={130} src="/post3.jpg.webp" alt=""/>
                         </div>
                         <div class="pl-5">
                             <h3 class="Blog_P hober mb-1 leading-5"
@@ -76,7 +76,7 @@ const page=()=>{
                    
                     <div class="flex text-start mt-5">
                         <div class="">
-                            <img src="/post4.jpg.webp" alt=""/>
+                            <Image width={100} height={130} src="/post4.jpg.webp" alt=""/>
                         </div>
                         <div class="pl-5">
                             <h3 class="Blog_P hober mb-1 leading-5"
@@ -91,7 +91,7 @@ const page=()=>{
                
                  <div class="border_"></div>
                
-                <div class=""><img src="/add.jpg.webp" class="img-fluid" alt=""/></div>
+                <div class=""><Image width={100} height={130} src="/add.jpg.webp" class="img-fluid" alt=""/></div>
                
                 <div class="border_"></div>
                

@@ -7,7 +7,7 @@ function page() {
     <div className='sectionF'>
    
 <a href="#" class="flex  flex-col items-center bg-white rounded-lg lg:flex md:flex-row xl:max-w-lx">
-    <img class="object-cover max-w-xs flex self-start pl-4 h-auto md:h-auto" src="/image/d.jpg.webp" alt=""/>
+    <Image class="object-cover max-w-xs flex self-start pl-4 h-auto md:h-auto" src="/image/d.jpg.webp" width={100} height={130} alt=""/>
     <div class="flex flex-col justify-between pl-4 pr-4 leading-normal">
         <p class="Para_F">Recently, the US Federal government banned online casinos from operating in
                         America by making it illegal to transfer money to them through any US bank or payment
@@ -36,7 +36,7 @@ function page() {
                         article are the electronic banking systems that accept players from the United States that
                         wish to play in online casinos.</p>
     </div>
-    <img class="object-cover max-w-xs  flex self-start pl-4 h-auto md:h-auto" src="/image/d.jpg.webp" alt=""/>
+    <Image class="object-cover max-w-xs  flex self-start pl-4 h-auto md:h-auto" src="/image/d.jpg.webp" width={100} height={130} alt=""/>
 </a>
  </div>
   )}

@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import style from '../app/style.module.css';
 import '../app/globals.css';
-
+import Image from 'next/image';
 const ProjectGallery = () => {
   const [popupVisible, setPopupVisible] = useState(false);
   const [selectedImage, setSelectedImage] = useState('');
@@ -105,7 +105,7 @@ const ProjectGallery = () => {
                     <div className={style.border0}>
                       <div className='popup-trigger  md:p-4 lg:p-4 sm:p-0' >
                         <div onClick={() => handleImageClick(index)} className={style.popupTrigger}>
-                          <img src={`/project-${index + 1}.jpg.webp`} className={`card-img-top ${style.image} w-100`} alt={`Image ${index + 1}`} />
+                          <Image src={`/project-${index + 1}.jpg.webp`} width={100} height={130} quality={100} className={`card-img-top ${style.image} w-100`} alt={`Image ${index + 1}`} />
                           <div className={style.hoverElement}>
                             <i className={`fas fa-binoculars icon ${style.icon}`}></i>
                           </div>
@@ -130,7 +130,7 @@ const ProjectGallery = () => {
         <>
           <div className='image-popup'>
             <i onClick={hidePopup} className='fas fa-times close-button'></i>
-            <img src={selectedImage} alt="Popup Image" className='popup-image' />
+            <Image src={selectedImage} width={100} height={130} alt="Popup Image" className='popup-image' />
             <div className='image-navigation'>
             <i onClick={showPreviousImage} className={`fas fa-arrow-left ${style.arrowIcon}`}></i>
             <i onClick={showNextImage} className={`fas fa-arrow-right ${style.arrowIcon}`}></i>

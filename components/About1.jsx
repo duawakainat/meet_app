@@ -3,7 +3,7 @@
 import '../app/globals.css'
 import { Breadcrumb } from 'flowbite-react';
 import { HiHome } from 'react-icons/hi';
-
+import Image from 'next/image';
 function Component(props) {
   return (
    

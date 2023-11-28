@@ -1,9 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
 import '../app/globals.css'
+import Section from '../components/Navbar'
 const page = () => {
     return (
-<section class="bg-center bg_col_image bg-no-repeat bg-[url('/banner-2.jpg.webp')] bg-gray-700">
+        <div>
+<section class="bg-center bg-blend-lighten bg_col_image bg-no-repeat bg-[url('/banner-2.jpg.webp')] bg-gray-700">
+<Section/>
     <div class="px-6 mx-auto Max_700 flex items-center max-w-screen-md text-center">
         <div>
         <h1 class="mb-4 h2_SF text-white">DUDE YOU’RE GETTING
@@ -15,7 +18,7 @@ A TELESCOPE</h1>
             </button>  </div>
         </div>
     </div>
-</section>
+</section></div>
 
     )}
     export default page

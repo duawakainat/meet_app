@@ -11,7 +11,7 @@ const page=()=>{
     return(
         <div class="col-lg-8  " style={{padding: '15px'}}>
         <div class="col-12">
-            <div class=""><img src="/feature-img1.jpg.webp" class="img-fluid" alt=""/></div>
+            <div class=""><Image src="/feature-img1.jpg.webp" width={100} height={130} class="img-fluid" alt=""/></div>
         </div>
         <div class="grid lg:grid-cols-3 d-flex flex-lg-row flex-md-column flex-sm-column col_sm">
             <div class="col-md-4 text-end Text_S " style={{paddingTop:'30px',paddingLeft: '15px',paddingRight: '15px'}}>
@@ -84,10 +84,10 @@ const page=()=>{
         <div class="">
             <div class="grid grid-cols-2 row align-items-center">
                 <div class="col-lg-6 col-md-6 col-sm-6" style={{paddingLeft: '15px',paddingRight: '15px',marginBottom: '10px'}}>
-                    <img src="/post-img1.jpg.webp" class="img-fluid" alt="" />
+                    <Image src="/post-img1.jpg.webp" width={100} height={130} class="img-fluid" alt="" />
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6" style={{paddingLeft: '15px',paddingRight: '15px',marginBottom: '10px'}}>
-                    <img src="/post-img2.jpg.webp" class="img-fluid" alt="" />
+                    <Image src="/post-img2.jpg.webp" width={100} height={130} class="img-fluid" alt="" />
                 </div>
             </div>
         </div>
@@ -116,7 +116,7 @@ const page=()=>{
                 <div
                     class="col-lg-6 col-md-6 col-sm-6 flex justify-start items-center Margin_B">
                     <div class="opicity">
-                        <img src="/prev.jpg.webp" style={{marginRight: '20px',width: '65px'}} alt="" />
+                        <Image src="/prev.jpg.webp" width={100} height={130} style={{marginRight: '20px',width: '65px'}} alt="" />
                         <div class="overlay" style={{backgroundColor: 'rgba(0, 0, 0, .5)'}}>
                         <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5H1m0 0 4 4M1 5l4-4"/>
@@ -134,7 +134,7 @@ const page=()=>{
                         <h4 class="s_18">Space The Final Frontier</h4>
                     </div>
                     <div class="opicity">
-                        <img src="/next.jpg.webp" style={{width: '65px'}} alt="" />
+                        <Image src="/next.jpg.webp" width={100} height={130} style={{width: '65px'}} alt="" />
                         <div class="overlay"
                             style={{backgroundColor: 'rgba(0, 0, 0, .5)',marginRight: '20px;'}}>
                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -152,7 +152,7 @@ const page=()=>{
                 <h4 class="s_18 text-center mb-12">05 Comments</h4>
                 <div class="flex justify-between items-center mb-12">
                     <div class="flex flex-inline justify-between items-center">
-                        <img src="/c1.jpg.webp" className='mr-5 leading-15' alt="" />
+                        <Image src="/c1.jpg.webp" width={100} height={130} className='mr-5 leading-15' alt="" />
                         <div class="">
                             <h6 class="h6_F p-0 m-0 SMALL12_"> Emilly Blunt</h6>
                             <p class="Para___16_C mb-3">December 4, 2017 at 3:12 pm </p>
@@ -166,7 +166,7 @@ const page=()=>{
                 
                 <div class="flex justify-between mb-12 ml-6">
                     <div class="flex justify-between">
-                        <img src="/c2.jpg.webp" className='mr-5 h-15' alt="" />
+                        <Image src="/c2.jpg.webp" width={100} height={130} className='mr-5 h-15' alt="" />
                         <div class="">
                             <h6 class="h6_F p-0 m-0 SMALL12_"> Emilly Blunt</h6>
                             <p class="Para___16_C mb-3">December 4, 2017 at 3:12 pm </p>
@@ -180,7 +180,7 @@ const page=()=>{
                 
                 <div class="flex justify-between mb-12 ml-6">
                     <div class="flex justify-between">
-                        <img src="/c3.jpg.webp" className='mr-5 h-15' alt=""/>
+                        <Image src="/c3.jpg.webp" width={100} height={130} className='mr-5 h-15' alt=""/>
                         <div class="">
                             <h6 class="h6_F p-0 m-0 SMALL12_"> Emilly Blunt </h6>
                             <p class="Para___16_C mb-3">December 4, 2017 at 3:12 pm </p>
@@ -194,7 +194,7 @@ const page=()=>{
                 
                 <div class="flex justify-between mb-12">
                     <div class="flex justify-between">
-                        <img src="/c4.jpg.webp" className='mr-5 h-15' alt="" />
+                        <Image src="/c4.jpg.webp" width={100} height={130} className='mr-5 h-15' alt="" />
                         <div class="">
                             <h6 class="h6_F p-0 m-0 SMALL12_"> Emilly Blunt </h6>
                             <p class="Para___16_C mb-3">December 4, 2017 at 3:12 pm </p>
@@ -208,7 +208,7 @@ const page=()=>{
                 
                 <div class="flex justify-between mb-12">
                     <div class="flex justify-between">
-                        <img src="/c5.jpg.webp" className='mr-5 h-15'
+                        <Image src="/c5.jpg.webp" width={100} height={130} className='mr-5 h-15'
                          alt="" />
                         <div class="">
                             <h6 class="h6_F p-0 m-0 SMALL12_"> Emilly Blunt </h6>
