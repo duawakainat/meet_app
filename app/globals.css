@@ -583,19 +583,7 @@ margin-left: 0px !important;
     font-weight: bold;
     color: #222222;
 }
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 65px;
-    opacity: 0;
 
-    background-color: rgba(0, 0, 0, .5);
-    /* transition: .3s ease; */
-    transition: all 300ms ease;
-}
 .Margin_B {
     @media only screen and (min-width:300px) and (max-width: 576px) {
         margin-bottom: 30px;
@@ -1035,7 +1023,30 @@ margin-left: 0px !important;
     size: 20px;
 
 }
-
+.img_20{
+    width: 360px;
+    height: 220px;
+}
+.logoImag{
+    width: 96px;
+    height: 18px;
+}
+.Img_B2{
+    width: 60px;
+    height: 60px;
+}
+.iMG_Sm{
+    width: 499px;
+    height: 227px;
+}
+.img_B{
+    width: 335px;
+    height: 306px;
+}
+.img_BLOG{
+    width: 714px;
+    height: 313px;
+}
 .image-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -1057,19 +1068,6 @@ margin-left: 0px !important;
     filter: grayscale(100%);
   }
   
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    z-index: 99999;
-  }
   
   .closeIcon {
     font-size: 3rem;
@@ -1082,6 +1080,14 @@ margin-left: 0px !important;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.ima_T{
+    width: 50px !important;
+    height: 30px !important;
+}
+.image_E{
+    width: 260px !important;
+    height: 180px !important;
 }
   .modal {
     display: none;

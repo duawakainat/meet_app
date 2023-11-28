@@ -2,6 +2,7 @@
 import React from 'react'
 import 'flowbite';
 import style from '../app/style.module.css'
+import '../app/globals.css'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation';
 import { Navbar } from "flowbite-react";
@@ -21,7 +22,7 @@ const Page = () => {
 
 <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
 <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-<Image src="/logo.png.webp" class="" alt="Flowbite Logo" />
+<Image src="/logo.png.webp" class="logoImag" width={60} height={23} alt="Flowbite Logo" />
 </a>
 <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center sm:mt-7 sm:mb-6 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
 <span class="sr-only">Open main menu</span>
@@ -31,7 +32,7 @@ const Page = () => {
 </button>
 <div class="hidden w-full md:block md:w-auto" id="navbar-default">
 <ul class="font-medium flex flex-col md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0">
-<Link href='home' className='nav-link'>Home</Link>
+<Link href='/' className='nav-link'>Home</Link>
         <Link href='about' className='nav-link !mt-0 !mr-11'>About</Link>
         <Link href='services' className='nav-link !mr-11'>Services</Link>    
         <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown1" class="text-white !ml-0 !mr-11 bg-transparent  inline-flex items-center" type="button">Page 
@@ -89,7 +90,7 @@ const Page = () => {
     </button>
     <div class="hidden w-full md:block md:w-auto" id="navbar-default">
       <ul class="font-medium flex flex-col md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0">
-      <Link href='home' className='nav-link'>Home</Link>
+      <Link href='/' className='nav-link'>Home</Link>
                     <Link href='about' className='nav-link !mt-0 !mr-11'>About</Link>
                     <Link href='services' className='nav-link !mr-11'>Services</Link>    
                     <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown1" class="text-white !ml-0 !mr-11 bg-transparent  inline-flex items-center" type="button">Page 
