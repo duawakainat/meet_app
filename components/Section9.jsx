@@ -18,7 +18,7 @@ const Section9=()=>{
                     <p class="font_14" style={{color: '#777',marginBottom: '30px'}}>Do you want to be even more successful?
                         Learn to love learning and growth. The more effort you put into improving your skills,</p>
                     <p class="font_14 m-0 p-0" style={{color: '#777'}}>Copyright ©2023 All rights reserved | This template
-                        is made with <BsHeart/>Colorlib
+                        is made with <span><BsHeart/> <span style={{color: '#766dff'}}> Colorlib</span></span>
                     </p>
                 </div>
                 <div class="col-span-2 align-self-start self-start " style={{padding: '0 15px'}}>
@@ -26,8 +26,8 @@ const Section9=()=>{
                     <p class="font_14" style={{color: '#777',marginBottom: '15px'}}>Stay updated with our latest trends</p>
                     <div class="input-container items-start">
                         <input class="input-field self-start" type="text" placeholder="Email" name="email"/><button
-                            class="btn_change flex justify-center">
-                                <svg class="w-6 h-6 ms-1 mt-1 text-white-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            class="btn_change flex justify-center items-center">
+                                <svg class="w-5 h-5 ms-1 flex justify-center items-center text-white-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
   </svg>
                             </button>
