@@ -123,7 +123,7 @@ const ProjectGallery = () => {
             }
           </div>
             <div class="text-right grid grid-cols-1 justify-items-stretch"><button type="button"
-                            class="btn Contact_btn_2 justify-self-center">Send Message</button></div>
+                            class="btn Contact_btn_2 !text-white justify-self-center">Send Message</button></div>
         </div>
       </div>
       {popupVisible == true &&
