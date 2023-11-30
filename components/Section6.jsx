@@ -88,8 +88,8 @@ const ProjectGallery = () => {
                 <p class={style.Para_16 + " p-0 m-0"}>Who are in extremely love with eco friendly system.</p>
             </div>
           <ul className='tabs nav nav-pills flex justify-center items-center mx-auto'>
-            {['all', 'VECTOR', 'RASTER', 'PRINTING', 'UI/UX'].map((filter, index) => (
-              <li key={index} onClick={() => handleFilterClick(filter)} className={`${activeFilter === filter ? style.active : '  filter_btan'}`}>
+            {['All', 'VECTOR', 'RASTER', 'PRINTING', 'UI/UX'].map((filter, index) => (
+              <li key={index} onClick={() => handleFilterClick(filter)} className='filter_btan'>
                 {filter}
               </li>
             ))}
@@ -105,7 +105,7 @@ const ProjectGallery = () => {
                     <div className={style.border0}>
                       <div className='popup-trigger  md:p-4 lg:p-4 sm:p-0' >
                         <div onClick={() => handleImageClick(index)} className={style.popupTrigger}>
-                          <Image src={`/project-${index + 1}.jpg.webp`} width={400} height={265} quality={100} className={`card-img-top w-100 ${style.image}`} alt={`Image ${index + 1}`} />
+                          <Image src={`/project-${index + 1}.jpg.webp`} width={340} height={339} quality={100} className={`card-img-top w-100 ${style.image}`} alt={`Image ${index + 1}`} />
                           <div className={style.hoverElement}>
                             <i className={`fas fa-binoculars icon ${style.icon}`}></i>
                           </div>

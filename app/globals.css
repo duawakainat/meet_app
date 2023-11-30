@@ -116,24 +116,68 @@ margin-left: 0px !important;
 .Contact_btn_2 {
     display: inline;
     background-image: linear-gradient(to right, #766dff 0%, #86e8ff 48%, #766dff 100%);
-    background-size: 200% auto;
-    font-size: 13px;
-    font-weight: 500px;
-    padding: 0 40px;
-    line-height: 48px;
+    background-size: 200% auto !important;
+    font-size: 13px !important;
+    font-weight: 500px !important;
+    padding: 0 40px !important;
+    line-height: 48px !important;
     width: auto;
     border: none;
     outline: none;
     border-radius: 5px;
     color: #fff;
     margin-top: 80px;
-    transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s !important;
 }
 
 .Contact_btn_2:hover {
     background-position: right center;
     color: #fff;
 }
+/* ::selection {
+    background-color: #C3CFE2;
+  }
+   */
+
+  
+  .instagram::after {
+    cursor: pointer;
+    background: pink !important;
+    background: -webkit-radial-gradient(33% 100% circle, #515ECF 4%, #9B36B7 30%, #D92E7F 62%, #F15245 85%, #FED373);
+    background: radial-gradient(circle at 33% 100%, #ff3be7 4%, #ff3be7 28%, #03ffe8 62%, #F15245 85%, #FED373);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+  }
+  .instagram:hover:after {
+    background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}  
+.icon_Gray {
+    color: #e8e8e8;
+}
+/* .Icon_bg {
+    font-size: 24px;
+    background: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+.Icon_bg {
+    font-size: 24px;
+    background: linear-gradient(to right, #766dff 0%, #86e7ff 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.icon_Gray:hover {
+    background-image: linear-gradient(to right, #766dff 0%, #88f3ff 100%) !important;
+    color: transparent;
+    -webkit-background-clip: text !important;
+    transition: background-image 0.3s ease;
+}
+
 .sectionF {
     max-width: 1170px !important;
     margin: auto;
