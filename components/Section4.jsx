@@ -15,7 +15,7 @@ const Section4=()=>{
                 <div class="col-lg-4 col-md-6 col-sm-12 w-100 padd_15">
                     <div class={style.div_card}>
                         <div class="mb-[35px]">
-                            <Image src="/cityscape (1).png" width={64} height={64} alt="" class='icon_61'/>
+                            <Image src="/cityscape(1).png" width={64} height={64} alt="" class='icon_61'/>
                         </div>
                         <h4 class={style.Head_4}>ARCHITECTURE</h4>
                         <p class={style.Para_16 + " p-0 m-0"}>If you are looking at blank cassettes on the web, you may be very
@@ -25,7 +25,7 @@ const Section4=()=>{
                 <div class=" w-100 col-lg-4 col-md-6 col-sm-12 padd_15">
                     <div class={style.div_card}>
                         <div class="mb-[35px]">
-                            <Image src="/skyline (1).png" width={64} height={64} alt="" class='icon_61'/>
+                            <Image src="/skyline(1).png" width={64} height={64} alt="" class='icon_61'/>
                         </div>
                         <h4 class={style.Head_4}>INTERIOR DESIGN</h4>
                         <p class={style.Para_16 + " p-0 m-0"}>If you are looking at blank cassettes on the web, you may be very
@@ -35,7 +35,7 @@ const Section4=()=>{
                 <div class="w-100 col-lg-4 col-md-6 col-sm-12 padd_15">
                     <div class={style.div_card}>
                         <div class="mb-[35px]">
-                            <Image src="/sketch (1).png" width={64} height={64} class='icon_61' alt=""/>
+                            <Image src="/sketch(1).png" width={64} height={64} class='icon_61' alt=""/>
                         </div>
                         <h4 class={style.Head_4}>CONCEPT DESIGN</h4>
                         <p class={style.Para_16 + " p-0 m-0"}>If you are looking at blank cassettes on the web, you may be very
